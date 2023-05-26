@@ -25,7 +25,7 @@ export default function RootLayout({ children }: Props) {
             <main>{children}</main>
 
             <footer>
-              <p>
+              <p style={{ color: '#000' }}>
                 Created By
                 <Link href="https://github.com/programmerrafi" target="_blank">
                   {' '}
